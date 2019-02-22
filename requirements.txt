@@ -1,0 +1,12 @@
+Flask==1.0.2
+Flask-RESTful==0.3.7
+Flask-SocketIO==3.2.1
+google-api-python-client==1.7.8
+google-auth==1.6.2
+google-auth-httplib2==0.0.3
+google-auth-oauthlib==0.2.0
+python-dotenv==0.10.1
+pytz==2018.9
+requests==2.21.0
+selenium==3.141.0
+simplejson==3.16.0
