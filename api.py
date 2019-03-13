@@ -71,7 +71,7 @@ class Index(Resource):
 
         message = client.get(userId='me', id=message_id).execute()
 
-        reply = MIMEText(content['activity']['text'])
+        reply = MIMEText(content['message']['text'])
         reply['To'] = read_header(message, 'From')
         reply['From'] = read_header(message, 'To')
         reply['Subject'] = read_subject(message)
